@@ -1,6 +1,13 @@
 // Adding Comments here to map out logical progression of function
 //Author: Nick Forward. Date: Aug 21 2022
 //Step 1: Build function to generate computer input for a game
+let computerscore = 0;
+let playerscore = 0;
+function Computeroutput() {
+let choices = ['rock', 'paper', 'scissors']
+return choices[Math.floor(Math.random()*choices.length)]
+}
+
 //Step 2: Build function to get input from player
 //Step 3: Build function to run game
 //Step 4: Build function to run game if player chooses rock
